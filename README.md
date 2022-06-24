@@ -31,7 +31,7 @@ SISG(BTS) requires corpus parsed with split_stroke=True, split_cji=True.
 
 We decompose the letters into cji/stroke levels. If you want to compose them into character/word level, you can modify the parsing method by adding a special seperator. Refer to the following example.
 
-For example, if we decompose the word "이라크" with above settings respectively with character-level seperator <b>&</b> (chosen to be a character that does not appear in the corpus)
+For example, if we decompose the word "이라크" with above settings respectively with character-level seperator <b>/</b> (chosen to be a character that does not appear in the corpus)
 
 + SISG(stroke): ㅇㅣ/ㄹㅏ/ㄱ-ㅡ/
 + SISG(cji): ㅇㅣ/ㄹㅣㆍ/ㅋㅡ/
