@@ -32,7 +32,7 @@ Args::Args() {
   maxjn = 5;
   minsc = 3;
   maxsc = 6;
-  endchar = "&";
+  endchar = "/";
   endjamo = "^";
   thread = 12;
   lrUpdateRate = 100;
