@@ -1,5 +1,7 @@
 # Break it Down Into BTS : Basic, Tiniest Subword Units for Korean
 
+This code is based on https://github.com/facebookresearch/fastText and https://github.com/SungjoonPark/KoreanWordVectors
+
 ## Training
 ### 0. Build
 Before you start training Korean word vectors, you should build the source by using `make`.
