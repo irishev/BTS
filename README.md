@@ -33,9 +33,9 @@ We decompose the letters into cji/stroke levels. If you want to compose them int
 
 For example, if we decompose the word "이라크" with above settings respectively with character-level seperator <b>&</b> (chosen to be a character that does not appear in the corpus)
 
-+ SISG(stroke): ㅇㅣ&ㄹㅏ&ㄱ-ㅡ& 
-+ SISG(cji): ㅇㅣ&ㄹㅣㆍ&ㅋㅡ
-+ SISG(BTS): ㅇㅣ&ㄹㅣㆍ&ㄱ-ㅡ&
++ SISG(stroke): ㅇㅣ/ㄹㅏ/ㄱ-ㅡ/
++ SISG(cji): ㅇㅣ/ㄹㅣㆍ/ㅋㅡ/
++ SISG(BTS): ㅇㅣ/ㄹㅣㆍ/ㄱ-ㅡ/
 
 
 ### 2. Train Korean word vectors.
@@ -95,7 +95,7 @@ The trained output file `[output_file_name].bin` can be used to compute word vec
 $ [fastText_executable_path] print-word-vectors model.bin < queries.txt
 ```
 
-Note that  `queries.txt` should contain decomposed Korean words, such as ㄱㅣㆍㅇeㅇㅣㆍeㅈㅣe for 강아지. You can also use `jamo_split` method in `decompose_letters.py` to obtain decomposed Korean words.
+Note that  `queries.txt` should contain decomposed Korean words, such as ㄱㅣㆍㅇ/ㅇㅣㆍ/ㅈㅣ/ for 강아지. You can also use `jamo_split` method in `decompose_letters.py` to obtain decomposed Korean words.
 
 
 ## Change Log
