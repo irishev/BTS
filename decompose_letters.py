@@ -6,7 +6,7 @@ from tqdm import tqdm
 from subchar_rule import subchar_dict, subchar_reverse_dict
 import jamotools
 
-END_CHAR = "&"
+END_CHAR = "/"
 END_JAMO = "^"
 
 def jamo_split(sentence, split_stroke=True, split_cji=True):
