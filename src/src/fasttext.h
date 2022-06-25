@@ -102,7 +102,8 @@ class FastText {
   void precomputeWordVectors(Matrix&);
   void
   findNN(const Matrix&, const Vector&, int32_t, const std::set<std::string>&);
-  
+  void get_analogy_vecs(std::istream&, std::string);
+   
   real cos(const Vector&, const Vector&);
   void nn(int32_t);
   void analogies(int32_t);
