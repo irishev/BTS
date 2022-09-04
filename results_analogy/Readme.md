@@ -12,7 +12,7 @@
 ![syn](jm+models_syntactic.png)  
 
 # Total results
-![total](basic_total.png)  
+![total](basic_total2.png)  
 ![total](ch4+models_total.png)  
 ![total](ch6+models_total.png)  
 ![total](jm+models_total.png)  
