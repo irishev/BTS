@@ -1,3 +1,7 @@
+# Settings of N-gram ranges
+
+![sem](n-gram_ranges.png)  
+
 # Semantic results
 
 ![sem](basic_semantic.png)  
