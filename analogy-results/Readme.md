@@ -1,4 +1,4 @@
-# Settings of N-gram ranges
+# Settings of n-gram ranges
 
 ![sem](n-gram_ranges.png)  
 
