@@ -4,6 +4,8 @@ _Nayeon Kim*, Jun-Hyung Park*, Joon-Young Choi, Eojin Jeon, Youjin Kang, and San
 
 _Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP 2022)_
 
+This repository contains the code for our EMNLP 2022 paper.
+
 ## Training
 ### 0. Build
 Before you start training Korean word vectors, you should build the source by using `make`.
