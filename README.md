@@ -76,8 +76,6 @@ You can evaluate the trained word vectors on analogies by typing as follows:
 [fastText_executable_path] analogies [output_file_name] [parsed_analogy_data_file_name]
 ```
 
-Note that the implementation of analogy is different from the original source code in https://github.com/SungjoonPark/KoreanWordVectors and <b>NOT BC</b>.
-
 [output_file_name] corresponds to the .bin file created from training.
 
 You must prepare the corresponding parsed analogy data file for SISG(stroke), SISG(cji), and SISG(BTS), so that the parsing methods of the corpus and word analogy file are aligned. 
