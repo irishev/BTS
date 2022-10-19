@@ -96,4 +96,4 @@ Note that  `queries.txt` should contain decomposed Korean words, such as ㄱㅣ�
 
 
 ## Change Log
-24-06-22 : Initial upload. version 0.1
+19-10-22 : Initial upload. version 1.0
