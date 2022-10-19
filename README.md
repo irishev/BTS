@@ -1,6 +1,8 @@
 # Break it Down Into BTS : Basic, Tiniest Subword Units for Korean
 
-This code is based on https://github.com/facebookresearch/fastText and https://github.com/SungjoonPark/KoreanWordVectors
+_Nayeon Kim*, Jun-Hyung Park*, Joon-Young Choi, Eojin Jeon, Youjin Kang, and SangKeun Lee (* equal contribution)_
+
+_Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP 2022)_
 
 ## Training
 ### 0. Build
